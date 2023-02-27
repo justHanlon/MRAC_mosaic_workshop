@@ -17,8 +17,8 @@ from move_group_utils.move_group_utils import (MoveGroupUtils, make_mesh,
 from pilz_robot_program.pilz_robot_program import (Lin, Ptp, Sequence,
                                                    SequencePlanningError)
 
-PATH = '/home/v/segmented_shards_24_02_15_22_31/'
-SIM = False
+PATH = '/home/justin/segmented_shards_24_02_15_22_31-20230227T153032Z-001/segmented_shards_24_02_15_22_31/'
+SIM = True
 ATTACH = True
 COLORMAP = plt.cm.get_cmap('tab20')
 

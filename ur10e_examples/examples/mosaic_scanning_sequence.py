@@ -16,7 +16,6 @@ from move_group_utils.move_group_utils import (MoveGroupUtils,
                                                publish_trajectory_markers)
 from pilz_robot_program.pilz_robot_program import Lin, Ptp, Sequence
 
-
 # motion parameters
 # --------------------------------------------
 
@@ -37,7 +36,7 @@ BLEND = 0.01
 # reconstruction parameters
 # --------------------------------------------
 SCAN = True
-OUTPUT_DIR = '/home/v/'
+OUTPUT_DIR = '/home/justin/mosaic_scans/'
 
 
 def gen_recon_msg(path: str = OUTPUT_DIR) -> Tuple[StartReconstructionRequest,
