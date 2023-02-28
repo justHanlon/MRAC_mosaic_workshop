@@ -19,7 +19,7 @@ SHARD_QUATERNION = [1.0, 0.0, 0.0, 0.0]
 def segment_shards(input_path: str,
                    path_output: str,
                    output: bool = False,
-                   num_shards: int = 9,
+                   num_shards: int = 30,
                    vis: bool = False,
                    ground_plane_threshold: float = 0.008,
                    cluster_eps: float = 0.02,
@@ -67,6 +67,8 @@ def segment_shards(input_path: str,
             clusters_colored.append(deepcopy(cluster).paint_uniform_color(
                 C_MAP(i / (l['num_clusters']))[:3]))
         o3d.visualization.draw_geometries(clusters_colored)
+
+    # return
 
     # plane segmentation
     # ----------------
@@ -354,10 +356,10 @@ def segment_shards_cuda(input_path: str,
 
 if __name__ == '__main__':
 
-    segment_shards(input_path='/home/v/02_24_15_20.ply',
-                   path_output='/home/v/',
+    segment_shards(input_path='/home/justin/Workshop2_2/mosaic_scans/02_28_15_scan_3.ply',
+                   path_output='/home/justin/Workshop2_2/ply_output',
                    output=True,
-                   num_shards=11,
+                   num_shards=30,
                    vis=True,
                    ground_plane_threshold=0.002,
                    cluster_eps=0.01,
