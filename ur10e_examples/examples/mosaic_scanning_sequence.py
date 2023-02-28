@@ -29,8 +29,8 @@ TP_PATH = '/dev_ws/src/ur10e_examples/toolpaths/mosaic_scan_L.yaml'
 
 MOVE_VEL = 0.5
 MOVE_ACC = 0.5
-SCAN_VEL = 0.03
-SCAN_ACC = 0.005
+SCAN_VEL = 0.05
+SCAN_ACC = 0.01
 BLEND = 0.01
 
 # reconstruction parameters
