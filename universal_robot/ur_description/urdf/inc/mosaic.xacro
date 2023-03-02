@@ -36,7 +36,7 @@
     <link name="${prefix}camera_tcp"/>
 
     <joint name="${prefix}tcp_joint" type="fixed">
-      <origin xyz="0 0 0.093" rpy="0 0 0"/>
+      <origin xyz="0 0 0.1075" rpy="0 0 0"/>
       <parent link="${prefix}end_effector"/>
       <child link="${prefix}tcp"/>
     </joint>

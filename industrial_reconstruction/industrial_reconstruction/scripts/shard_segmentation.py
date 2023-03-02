@@ -19,7 +19,7 @@ SHARD_QUATERNION = [1.0, 0.0, 0.0, 0.0]
 def segment_shards(input_path: str,
                    path_output: str,
                    output: bool = False,
-                   num_shards: int = 30,
+                   num_shards: int = 37,
                    vis: bool = False,
                    ground_plane_threshold: float = 0.008,
                    cluster_eps: float = 0.02,
@@ -356,10 +356,10 @@ def segment_shards_cuda(input_path: str,
 
 if __name__ == '__main__':
 
-    segment_shards(input_path='/home/justin/Workshop2_2/mosaic_scans/02_28_15_scan_3.ply',
+    segment_shards(input_path='/home/justin/Workshop2_2/mosaic_scans/03_02_09_53.ply',
                    path_output='/home/justin/Workshop2_2/ply_output',
                    output=True,
-                   num_shards=30,
+                   num_shards=37,
                    vis=True,
                    ground_plane_threshold=0.002,
                    cluster_eps=0.01,
