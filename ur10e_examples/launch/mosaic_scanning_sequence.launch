@@ -2,7 +2,7 @@
     <!-- Moveit config -->
     <!-- <include file="$(find ur10e_moveit_config)/launch/demo.launch" /> --> 
     <!-- Tf publisher that links camera link to tool0 -->
-    <node pkg="tf" type="static_transform_publisher" name="camera_link_broadcaster" args="0 0 0 0.707 0 0.707 0 camera_tcp camera_link 100" />
+    <node pkg="tf" type="static_transform_publisher" name="camera_link_broadcaster" args="0 0 0 0.785398 0 0.785398 0 camera_tcp camera_link 100" />
     <!-- Realsense -->
     <include file="$(find realsense2_camera)/launch/rs_camera.launch">
         <!-- <arg name="enable_pointcloud" value="true" /> -->

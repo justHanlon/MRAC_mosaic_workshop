@@ -91,6 +91,8 @@ def robot_program():
     if not mgi.plan_and_execute(Ptp(goal=HOME, vel_scale=MOVE_VEL, acc_scale=MOVE_ACC)):
         return rospy.logerr('robot program: failed to move home')
 
+    # return
+
     # move approach
     if not mgi.plan_and_execute(Ptp(goal=poses[0], vel_scale=MOVE_VEL, acc_scale=MOVE_ACC)):
         return rospy.logerr('robot program: failed to plan approach')
