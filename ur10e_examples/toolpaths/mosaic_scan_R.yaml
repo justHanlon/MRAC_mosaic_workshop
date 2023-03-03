@@ -1,60 +1,81 @@
 # manual yaml
 path:
  - pose_id: 0
-   position: [-0.40, 0.45, 0.08]
+   position: [-0.95, 0.30, 0.08]
    quaternion: [0.0, 1.0, 0.0, 0.0]
  - pose_id: 1
-   position: [-0.40, -0.45, 0.08]
+   position: [-0.95, -0.30, 0.08]
    quaternion: [0.0, 1.0, 0.0, 0.0]
   #  third line
  - pose_id: 2
-   position: [-0.45, -0.45, 0.08]
+   position: [-1.25, -0.3, 0.08]
    quaternion: [0.0, 1.0, 0.0, 0.0]
  - pose_id: 3
-   position: [-0.45, 0.45, 0.08]
+   position: [-1.25, 0.3, 0.08]
    quaternion: [0.0, 1.0, 0.0, 0.0]
   #  fourth line
  - pose_id: 4
-   position: [-0.50, 0.45, 0.08]
+   position: [-0.95, 0.3, 0.08]
    quaternion: [0.0, 1.0, 0.0, 0.0]
- - pose_id: 5
-   position: [-0.50, -0.45, 0.08]
-   quaternion: [0.0, 1.0, 0.0, 0.0]
-  #  fifth line
- - pose_id: 6
-   position: [-0.55, -0.45, 0.08]
-   quaternion: [0.0, 1.0, 0.0, 0.0]
- - pose_id: 7
-   position: [-0.55, 0.45, 0.08]
-   quaternion: [0.0, 1.0, 0.0, 0.0]
-  # sixth line
- - pose_id: 8
-   position: [-0.60, 0.45, 0.08]
-   quaternion: [0.0, 1.0, 0.0, 0.0]
- - pose_id: 9
-   position: [-0.60, -0.45, 0.08]
-   quaternion: [0.0, 1.0, 0.0, 0.0]
-  #  seventh line
- - pose_id: 10
-   position: [-0.65, -0.45, 0.08]
-   quaternion: [0.0, 1.0, 0.0, 0.0]
- - pose_id: 11
-   position: [-0.65, 0.45, 0.08]
-   quaternion: [0.0, 1.0, 0.0, 0.0]
-  # eighth line
- - pose_id: 12
-   position: [-0.70, 0.45, 0.08]
-   quaternion: [0.0, 1.0, 0.0, 0.0]
- - pose_id: 13
-   position: [-0.70, -0.45, 0.08]
-   quaternion: [0.0, 1.0, 0.0, 0.0]
-  #  ninth line
- - pose_id: 10
-   position: [-0.75, -0.45, 0.08]
-   quaternion: [0.0, 1.0, 0.0, 0.0]
- - pose_id: 11
-   position: [-0.75, 0.45, 0.08]
-   quaternion: [0.0, 1.0, 0.0, 0.0]
+
+
+# # manual yaml
+# path:
+#  - pose_id: 0
+#    position: [-0.40, 0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#  - pose_id: 1
+#    position: [-0.40, -0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#   #  third line
+#  - pose_id: 2
+#    position: [-0.45, -0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#  - pose_id: 3
+#    position: [-0.45, 0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#   #  fourth line
+#  - pose_id: 4
+#    position: [-0.50, 0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#  - pose_id: 5
+#    position: [-0.50, -0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#   #  fifth line
+#  - pose_id: 6
+#    position: [-0.55, -0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#  - pose_id: 7
+#    position: [-0.55, 0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#   # sixth line
+#  - pose_id: 8
+#    position: [-0.60, 0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#  - pose_id: 9
+#    position: [-0.60, -0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#   #  seventh line
+#  - pose_id: 10
+#    position: [-0.65, -0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#  - pose_id: 11
+#    position: [-0.65, 0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#   # eighth line
+#  - pose_id: 12
+#    position: [-0.70, 0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#  - pose_id: 13
+#    position: [-0.70, -0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#   #  ninth line
+#  - pose_id: 10
+#    position: [-0.75, -0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
+#  - pose_id: 11
+#    position: [-0.75, 0.45, 0.08]
+#    quaternion: [0.0, 1.0, 0.0, 0.0]
 
 
 

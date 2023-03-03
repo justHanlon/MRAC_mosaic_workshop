@@ -40,7 +40,7 @@ def segment_shards(input_path: str,
     # segment ground plane
     # change the 'pc' to 'pcd' to use the original point cloud if scanning for full part instead of just face
     # ----------------
-    plane, pc, pq = segment_plane(pcd, ground_plane_threshold)
+    plane, pcd, pq = segment_plane(pcd, ground_plane_threshold)
     if output:
         log = {'shards': {'ground_plane': {}}}
         log['shards']['ground_plane'] = pq
@@ -357,10 +357,10 @@ def segment_shards_cuda(input_path: str,
 
 if __name__ == '__main__':
 
-    segment_shards(input_path='/home/justin/Workshop2_2/mosaic_scans/03_03_10_42.ply',
+    segment_shards(input_path='/home/justin/Workshop2_2/mosaic_scans/03_03_11_47.ply',
                    path_output='/home/justin/Workshop2_2/ply_output',
                    output=True,
-                   num_shards=57,
+                   num_shards=1,
                    vis=True,
                    ground_plane_threshold=0.002,
                    cluster_eps=0.01,

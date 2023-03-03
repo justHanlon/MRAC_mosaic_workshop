@@ -53,7 +53,7 @@ def gen_recon_msg(path: str = OUTPUT_DIR) -> Tuple[StartReconstructionRequest,
     start_srv_req.tsdf_params.min_box_values = Vector3(x=0.0, y=0.0, z=0.0)
     start_srv_req.tsdf_params.max_box_values = Vector3(x=0.0, y=0.0, z=0.0)
     start_srv_req.rgbd_params.depth_scale = 1000
-    start_srv_req.rgbd_params.depth_trunc = 0.08  # 0.15
+    start_srv_req.rgbd_params.depth_trunc = 0.15  # 0.08
     start_srv_req.rgbd_params.convert_rgb_to_intensity = False
 
     stop_srv_req = StopReconstructionRequest()
