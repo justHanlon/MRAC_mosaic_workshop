@@ -48,7 +48,13 @@ path:
  - pose_id: 13
    position: [-0.70, -0.45, 0.08]
    quaternion: [0.0, 1.0, 0.0, 0.0]
-
+  #  ninth line
+ - pose_id: 10
+   position: [-0.75, -0.45, 0.08]
+   quaternion: [0.0, 1.0, 0.0, 0.0]
+ - pose_id: 11
+   position: [-0.75, 0.45, 0.08]
+   quaternion: [0.0, 1.0, 0.0, 0.0]
 
 
 

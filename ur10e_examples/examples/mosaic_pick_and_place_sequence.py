@@ -17,7 +17,7 @@ from move_group_utils.move_group_utils import (MoveGroupUtils, make_mesh,
 from pilz_robot_program.pilz_robot_program import (Lin, Ptp, Sequence,
                                                    SequencePlanningError)
 
-PATH = '/home/justin/Workshop2_2/ply_output/segmented_shards_02_03_12_34_54/'
+PATH = "/home/justin/Workshop2_2/ply_output/segmented_shards_02_03_19_32_53/"
 SIM = False
 ATTACH = False
 COLORMAP = plt.cm.get_cmap('tab20')
@@ -67,8 +67,8 @@ def load_shard_data(dir_path: str, frame_id: str
         place.append([float(data['shards']['shard_' + str(i)]['place']['position']['x']),
                      float(data['shards']['shard_' +
                                           str(i)]['place']['position']['y'])-0.007,
-                     float(data['shards']['shard_' + 5
-                                          str(i)]['place']['position']['z']),
+                     float(data['shards']['shard_' +
+                                          str(i)]['place']['position']['z'])+0.0095,
                      float(data['shards']['shard_' +
                                           str(i)]['place']['quaternion']['x']),
                      float(data['shards']['shard_' +

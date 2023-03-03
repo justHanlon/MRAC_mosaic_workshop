@@ -8,7 +8,8 @@
         <!-- <arg name="enable_pointcloud" value="true" /> -->
         <!-- <arg name="ordered_pc" value="true" /> -->
         <!-- <arg name="filters" value="pointcloud" /> -->
-        <arg name="clip_distance" value="0.15" />
+        <!-- # 0.15 was initial setting for clip_distance -->
+        <arg name="clip_distance" value="0.08" /> 
         <arg name='enable_depth' value='true' /> 
         <arg name="align_depth" value="true" />
         <arg name="color_fps" value="30" />
